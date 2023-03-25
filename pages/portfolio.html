@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-    <link
-      href="../assets/download.png" rel="icon" type="image/gif" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../assets/download.png" rel="icon" type="image/gif" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#">home</a></li>
+        <ul class="navbar">
+          <li class="listClass">
+            <a href="#">home</a>
+          </li>
           <li><a href="./about.html">about</a></li>
           <li><a href="#">work</a></li>
           <li><a href="#">resume</a></li>
@@ -51,7 +53,9 @@
           allowfullscreen
         ></iframe>
       </section>
-      <section>
+      <section class="resumeSection">
+        <h2>resume section</h2>
+
         <table id="table1" border="1" title="Resume">
           <thead>
             <tr>
@@ -79,6 +83,7 @@
           </tbody>
         </table>
       </section>
+      <h2>contact section</h2>
       <form>
         <label for="name">Name:</label>
         <input id="name" type="text" placeholder="enter your name" />
